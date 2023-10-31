@@ -1,0 +1,44 @@
+Khách hàng khi vào trang web có thể:
+
+Tìm kiếm sân bóng đá theo địa chỉ và các tiêu chí khác.
+Đăng ký tài khoản thành viên để quản lý các thông tin cá nhân của mình.
+Đặt sân bóng đá trực tuyến và chọn các dịch vụ đi kèm.
+Thanh toán trực tuyến và xem thông tin chi tiết về các đơn đặt hàng của mình.
+Xem lịch sử đặt sân, điểm thưởng và các thông báo mới nhất từ sân bóng đá.
+
+Admin khi vào trang web có thể:
+
+Quản lý thông tin sân bóng đá, bao gồm cập nhật thông tin về sân bóng đá, giá cả, lịch trình và các dịch vụ đi kèm.
+Quản lý thông tin khách hàng và các đơn đặt hàng, bao gồm xem lịch sử đặt sân của khách hàng, xử lý các yêu cầu hỗ trợ và đánh giá phản hồi của khách hàng.
+Quản lý tài khoản thành viên và xem các thống kê về hoạt động trên trang web.
+Gửi thông báo và khuyến mãi đến khách hàng thông qua email hoặc tin nhắn để giới thiệu các dịch vụ mới.
+Tạo lịch trình sân và quản lý các dịch vụ đi kèm.
+
+Một số chức năng quản lý sân bóng đá có thể bao gồm:
+
+Đăng nhập và đăng ký tài khoản.
+Tìm kiếm sân bóng đá theo địa chỉ và các tiêu chí khác.
+Đặt sân bóng đá trực tuyến và chọn các dịch vụ đi kèm.
+Thanh toán trực tuyến và xem thông tin chi tiết về các đơn đặt hàng của mình.
+Xem lịch sử đặt sân, điểm thưởng và các thông báo mới nhất từ sân bóng đá.
+Quản lý thông tin sân bóng đá, bao gồm cập nhật thông tin về sân bóng đá, giá cả, lịch trình và các dịch vụ đi kèm.
+Quản lý thông tin khách hàng và các đơn đặt hàng, bao gồm xem lịch sử đặt sân của khách hàng, xử lý các yêu cầu hỗ trợ và đánh giá phản hồi của khách hàng.
+Quản lý tài khoản thành viên và xem các thống kê v
+
+
+
+
+
+
+
+
+thời gian bắt đầu và thời gian kết thúc
+lọc tên sân và loại sân 
+sửa lại trạng thái sân
+thêm nút reset chỗ danh sách sân và xóa tên đăng nhập
+nếu chuyển trạng thái từ hoạt động => trống, thì xóa
+tạo hóa đơn trực tiếp => lọc tên sân loại sân , làm lại thời gian(thời gian kết thúc - thời gian bắt đầu), giá tiền (lấy thời gian * giá tiền cho trước)
+thêm , xóa tài khoản => quản lý tài khoản
+xử lý auto load 
+thanh toán trực tiếp => nhập thông tin user và thời gian bắt đầu, thêm nút cập nhật và thanh toán, sau khi đá xong cập nhật lại thời gian kết thúc, bấm nút thanh toán sẽ xuất hóa đơn.
+khi mà bấm vào nút thêm hóa đơn, sẽ cập nhật trạng thái sân, và sau khi bấm thanh toán thì sẽ cập nhật lại trạng thái sân

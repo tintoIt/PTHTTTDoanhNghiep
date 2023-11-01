@@ -99,6 +99,8 @@
                           $sqlupdate = "UPDATE danhsachsan SET Trangthai = 'Hoạt động' where Tensan = '$tensan'";      
                           if ($conn->query($sqlupdate) === true) {
                             $sussess = 'Đặt sân thành công!';
+                            header("Location: ThanhtoanOnl.php");
+                            exit();
                           }
                         }
                         else{
@@ -310,12 +312,12 @@
               echo "<div class='alert alert-success'>$sussess</div>"; 
             }
           ?>
-          <button class="btn btn-primary">Đặt sân</button>
+          <button id="btn" class="btn btn-primary">Đặt sân</button>
           <button type="reset" class="btn btn-secondary">Làm mới</button>
-
+          <img id="hinhAnh" style="display: none;" src="images/Momo.jpg" alt="Mã Thanh Toán">
         </div>
         
-
+           
       </form>
     </div>
     <?php
